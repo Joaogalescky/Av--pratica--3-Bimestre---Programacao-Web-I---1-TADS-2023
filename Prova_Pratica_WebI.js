@@ -5,7 +5,8 @@ frm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const numero = frm.inNumero.value;
-
+    //const array = [];
+    
     const h5 = document.createElement("h5");
     const texto = document.createTextNode(numero);
     h5.appendChild(texto);
@@ -14,6 +15,7 @@ frm.addEventListener("submit", (e) => {
     frm.inNumero.value = "";
     frm.inNumero.focus();
 
+    //for(let i = 0; array.length; [...]
     // forEach(numero){
     //     if(numero > inNumero.value){
     //         numero.push(numero);
